@@ -5,14 +5,14 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "X"
+    return render_template("index.html")
 
-@app.route("/machine_learning")
+@app.route("/ml_predictions")
 def ML_page():
     return "X"
 
 @app.route("/leaflet")
-def Leaflet_page():
+def leaflet_page():
     return "X"
 
 @app.route("/data")
@@ -21,7 +21,7 @@ def data_page():
 
 @app.route("/about_us")
 def about_us():
-    return "X"
+    return render_template("about_us.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
