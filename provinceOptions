@@ -1,0 +1,417 @@
+province,province_label
+Achaia,0
+Aconcagua Costa,1
+Aconcagua Valley,2
+Aegean,3
+Ahr,4
+Aigialias Slopes,5
+Alenquer,6
+Alentejano,7
+Alentejo,8
+Alenteo,9
+Algarve,10
+Alsace,11
+America,12
+Amindeo,13
+Amyndeon,14
+Andalucia,15
+Apalta,16
+Arcadia,17
+Arizona,18
+Atalanti Valley,19
+Atlantida,20
+Attica,21
+Australia Other,22
+Austria,23
+Awatere Valley,24
+Baden,25
+Bairrada,26
+Beaujolais,27
+Beira Atlantico,28
+Beira Interior,29
+Beiras,30
+Bekaa Valley,31
+Beni M'Tir,32
+Beotia,33
+Black Sea Coastal,34
+Bordeaux,35
+Bot River,36
+Brazil,37
+Brda,38
+Breede River Valley,39
+Breedekloof,40
+British Columbia,41
+Bucelas,42
+Buin,43
+Bulgaria,44
+Burgenland,45
+Burgundy,46
+Bío Bío Valley,47
+Cachapoal Valley,48
+Cahul,49
+California,50
+Canelones,51
+Canterbury,52
+Cape Agulhas,53
+Cape South Coast,54
+Carnuntum,55
+Casablanca & Leyda Valleys,56
+Casablanca Valley,57
+Casablanca-Curicó Valley,58
+Catalonia,59
+Cauquenes Valley,60
+Cederberg,61
+Central Italy,62
+Central Otago,63
+Central Otago-Marlborough,64
+Central Spain,65
+Central Valley,66
+Cephalonia,67
+Chalkidiki,68
+Champagne,69
+Chile,70
+China,71
+Chisinau County,72
+Choapa Valley,73
+Coastal Region,74
+Codru Region,75
+Colares,76
+Colchagua Costa,77
+Colchagua Valley,78
+Colinele Dobrogei,79
+Colonia,80
+Colorado,81
+Commandaria,82
+Connecticut,83
+Constantia,84
+Corinth,85
+Crete,86
+Croatia,87
+Curicó Valley,88
+Curicó and Leyda Valleys,89
+Curicó and Maipo Valleys,90
+Cyclades,91
+Cyprus,92
+Dan,93
+Danube Hills Valley,94
+Danube River Plains,95
+Darling,96
+Dealu Mare,97
+Dealurile Munteniei,98
+Dolenjska,99
+Donauland,100
+Douro,101
+Douro Superior,102
+Drama,103
+Durbanville,104
+Duriense,105
+Dão,106
+East Coast,107
+Eastern Bays,108
+Eger,109
+Egilias Slopes,110
+Eilandia,111
+Eisenberg,112
+El Colorado,113
+Elazığ,114
+Elgin,115
+Elim,116
+Ella Valley,117
+Elqui Valley,118
+England,119
+Epanomi,120
+Estremadura,121
+Evia,122
+Felso-Magyarország,123
+Florina,124
+France Other,125
+Franken,126
+Franschhoek,127
+Galicia,128
+Galil,129
+Galilee,130
+Georgia,131
+Gerania,132
+Germany,133
+Gisborne,134
+Golan Heights,135
+Goriska Brda,136
+Goumenissa,137
+Greece,138
+Groenekloof,139
+Guerrouane,140
+Halkidiki,141
+Haut-Judeé,142
+Hawke's Bay,143
+Hemel en Aarde,144
+Hungary,145
+Idaho,146
+Ilia,147
+Ilias,148
+Imathia,149
+Ioannina,150
+Iowa,151
+Ismarikos,152
+Israel,153
+Istria,154
+Italy Other,155
+Itata Valley,156
+Jerusalem Hills,157
+Jonkershoek Valley,158
+Juanico,159
+Judean Hills,160
+Kakheti,161
+Kamptal,162
+Kathikas,163
+Kentucky,164
+Klein River,165
+Korinthia,166
+Krania Olympus,167
+Kremstal,168
+Kumeu,169
+Kutjevo,170
+Lakonia,171
+Langenlois,172
+Languedoc-Roussillon,173
+Lebanon,174
+Leithaberg,175
+Lemnos,176
+Lesbos,177
+Letrinon,178
+Levante,179
+Leyda Valley,180
+Limarí Valley,181
+Lisboa,182
+Lithuania,183
+Loire Valley,184
+Lolol Valley,185
+Lombardy,186
+Loncomilla Valley,187
+Lontué Valley,188
+Lutzville Valley,189
+Macedonia,190
+Madeira,191
+Maipo Valley,192
+Maipo Valley-Colchagua Valley,193
+Malleco,194
+Mantinia,195
+Marchigue,196
+Marlborough,197
+Marlborough & Hawkes Bay,198
+Martinborough,199
+Martinborough Terrace,200
+Massachusetts,201
+Maule Valley,202
+Mendoza Province,203
+Messinia,204
+Michigan,205
+Middle and South Dalmatia,206
+Minho,207
+Missouri,208
+Mittelburgenland,209
+Moldova,210
+Molina,211
+Monemvasia,212
+Montevideo,213
+Moravia,214
+Morocco,215
+Moscatel de Setúbal,216
+Moscatel do Douro,217
+Mosel,218
+Mosel-Saar-Ruwer,219
+Moselle Luxembourgeoise,220
+Mount Athos,221
+Moutere,222
+Murfatlar,223
+Murfatlar Cernavoda,224
+Muscat of Patras,225
+Muzla,226
+Mátra,227
+Nahe,228
+Naoussa,229
+Nashik,230
+Negev,231
+Negev Hills,232
+Nelson,233
+Nemea,234
+Neszmély,235
+Neuchâtel,236
+Neusiedlersee,237
+Neusiedlersee-Hügelland,238
+Nevada,239
+New Jersey,240
+New Mexico,241
+New South Wales,242
+New York,243
+New Zealand,244
+Niederösterreich,245
+North Carolina,246
+North Dalmatia,247
+North Island,248
+Northeastern Italy,249
+Northern Cape,250
+Northern Spain,251
+Northwestern Italy,252
+Obidos,253
+Ohio,254
+Ohiti Valley,255
+Omaka Valley,256
+Ontario,257
+Opuntia Locris,258
+Oregon,259
+Other,260
+Overberg,261
+Paarl,262
+Pageon,263
+Palmela,264
+Pangeon,265
+Pannon,266
+Patras,267
+Peljesac,268
+Peloponnese,269
+Pennsylvania,270
+Península de Setúbal,271
+Peumo,272
+Peza,273
+Pfalz,274
+Philadelphia,275
+Piedmont,276
+Pirque,277
+Pisatis,278
+Pitsilia Mountains,279
+Plaiurile Drancei,280
+Podunavlje,281
+Port,282
+Portugal,283
+Portuguese Table Wine,284
+Primorska,285
+Progreso,286
+Provence,287
+Puente Alto,288
+Queensland,289
+Rapel Valley,290
+Rapel Valley-Casablanca Valley,291
+Rapsani,292
+Recas,293
+Requinoa,294
+Retsina,295
+Rhein-Mosel,296
+Rheingau,297
+Rheinhessen,298
+Rhône Valley,299
+Ribatejano,300
+Ribatejo,301
+Rio Claro,302
+Robertson,303
+Romania,304
+Rose Valley,305
+Samos,306
+Samson,307
+San Antonio,308
+San Clemente,309
+San Jose,310
+San Vicente,311
+Santa Barbara County-Condrieu,312
+Santa Catarina,313
+Santa Cruz,314
+Santorini,315
+Sebes,316
+Serra Gaúcha,317
+Serra do Sudeste,318
+Setubal,319
+Shomron,320
+Sicily & Sardinia,321
+Simonsberg-Paarl,322
+Simonsberg-Stellenbosch,323
+Sliven,324
+Slovenia,325
+Slovenska Istra,326
+Sopron,327
+South Africa,328
+South Australia,329
+South Island,330
+South Styria,331
+Southern Italy,332
+Southwest France,333
+Spain Other,334
+Spanish Islands,335
+Steiermark,336
+Stellenbosch,337
+Sterea Ellada,338
+Stirling,339
+Styria,340
+Swartland,341
+Szekszárd,342
+Südoststeiermark,343
+Südsteiermark,344
+Table wine,345
+Targovishte,346
+Tasmania,347
+Tejo,348
+Terasele Dunarii,349
+Terras do Dão,350
+Terras do Sado,351
+Texas,352
+Thermenregion,353
+Thessalikos,354
+Thrace,355
+Thracian Valley,356
+Ticino,357
+Tikves,358
+Tokaj,359
+Tokaji,360
+Torres Vedras,361
+Tradouw,362
+Traisental,363
+Transylvanian Plateau,364
+Tulbagh,365
+Turkey,366
+Tuscany,367
+Ukraine,368
+Upper Galilee,369
+Uruguay,370
+Vale Trentino,371
+Vale dos Vinhedos,372
+Valle de Guadalupe,373
+Valle de Guadalupe and Santo Tomás,374
+Veneto,375
+Vermont,376
+Victoria,377
+Vienna,378
+Viile Carasului,379
+Viile Timis,380
+Viile Timisului,381
+Villány,382
+Vin de Pays d'Imathia,383
+Vin de Pays de Macédoine,384
+Vin de Pays de Velvendo,385
+Vinho Espumante de Qualidade,386
+Vinho Verde,387
+Vinho da Mesa,388
+Vino da Tavola della Svizzera Italiana,389
+Vipavska Dolina,390
+Virginia,391
+Vânju Mare,392
+Wachau,393
+Wagram,394
+Wagram-Donauland,395
+Waiheke Island,396
+Waipara,397
+Waipara Valley,398
+Wairarapa,399
+Wairau Valley,400
+Walker Bay,401
+Washington,402
+Washington-Oregon,403
+Weinland Österreich,404
+Weinviertel,405
+Wellington,406
+Western Australia,407
+Western Cape,408
+Wiener Gemischter Satz,409
+Württemberg,410
+Zenata,411
+Zitsa,412
+Österreichischer Sekt,413
+Štajerska,414
+Župa,415
