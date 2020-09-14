@@ -1,0 +1,7 @@
+Wine_Bins,price_label
+Iconic: Over $50,0
+Popular: $10-15,1
+Premium: $15-20,2
+Super Premium: $20-30,3
+Ultra Premium: $30-50,4
+Value: Under $10,5
