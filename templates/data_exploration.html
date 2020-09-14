@@ -10,20 +10,18 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- Hello JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <!-- Data Tables -->
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
-    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-    <!-- D3 Tip for the Tooltips -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
     <!-- Data Table JS -->
     <script src="../static/js/d_table.js"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <!-- Datatable -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
     <!-- Bootswatch CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous">
-    <!-- Datatable -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/ML_style.css">
 
@@ -67,9 +65,12 @@
                     <p class="lead"></p>
                 </div>
             </div>
-            <div class="card-body card list-group-item" style="margin-top: 0%;">
+            <div class="card-body card list-group-item">
                 <div class="card-header">
                     <h2 class="subtitle">Wine Data Sample (1000 rows)</h2>
+                </div>
+                <div>
+                    <a href="/downloadCSV" download="Clean_Wine_Data.csv"><button type="button" class="btn btn-primary">Click to download full csv file</button></a>
                 </div>
                 <div class="container-fluid" style="padding-top: 15px;">
                     <div class="row">
@@ -91,7 +92,7 @@
                                         <th>Price Catagory</th>
                                     </tr>
                                 </thead>
-                                <tbody id="wine-data">
+                                <tbody>
                                 </tbody>
                             </table>
                         </div>

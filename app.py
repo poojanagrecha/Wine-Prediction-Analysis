@@ -1,4 +1,4 @@
-from flask import Flask, request, Response, render_template, jsonify
+from flask import Flask, request, Response, render_template, jsonify, send_file
 import json
 import numpy as np
 import pandas as pd
@@ -89,5 +89,9 @@ def getdataFrame():
     df = pd.read_csv("data/df_dataTable.csv").drop("Unnamed: 0", axis=1)
     return Response(df.to_json(orient="records"), mimetype='application/json')
 
+@app.route('/downloadCSV', methods=['GET'])
+def downloadCSV():
+    return send_file('data/df_download.csv', mimetype='text/csv',attachment_filename='df_download.csv',as_attachment=True)
+    
 if __name__ == "__main__":
     app.run(debug=True)
