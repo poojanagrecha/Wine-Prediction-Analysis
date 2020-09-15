@@ -12,11 +12,7 @@
     <!-- D3 Tip for the Tooltips -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
 
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
     <!-- Bootswatch CSS -->
     <link
@@ -32,7 +28,7 @@
   <body>
     <div class="container-fluid navbar-dark bg-dark">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Wine Not</a>
+        <a class="navbar-brand" href="/">Wine Not!</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,10 +47,27 @@
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/tableau"
-                >Tableau Exploration <span class="sr-only">(current)</span></a
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Tableau Exploration</a
               >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/tableau1"
+                  >Tableau Dashboard 1</a
+                >
+                <a class="dropdown-item" href="/tableau2"
+                  >Tableau Dashboard 2</a
+                >
+                <a class="dropdown-item" href="/tableau3"
+                  >Tableau Dashboard 3</a
+                >
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/data"
@@ -76,7 +89,7 @@
       </nav>
     </div>
     <br />
-    <h1 style="color: #fff">Machine Learning Predictions</h1>
+    <h1 style="color: #fff">The Price Is Right</h1>
     <br />
     <h3 style="color: #fff">
       Make a selection from each catagory to predict your wine's price range.
@@ -84,7 +97,7 @@
     <br />
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col d-flex justify-content-center">
           <!-- Left Content Box -->
           <div class="card" style="width: 18rem">
             <img
@@ -98,11 +111,11 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="machine_learning.html" class="btn btn-primary">Visit</a>
+              <a href="/ml_predictions" class="btn btn-primary">Visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col d-flex justify-content-center">
           <!-- Right Content Box -->
           <div class="card" style="width: 18rem">
             <img
@@ -116,16 +129,35 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="tableau_exploration.html" class="btn btn-primary"
-                >Visit</a
-              >
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle btn-primary"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Visit
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/tableau1"
+                    >Tableau Dashboard 1</a
+                  >
+                  <a class="dropdown-item" href="/tableau2"
+                    >Tableau Dashboard 2</a
+                  >
+                  <a class="dropdown-item" href="/tableau3"
+                    >Tableau Dashboard 3</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <br />
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col d-flex justify-content-center">
           <!-- Left Content Box -->
           <div class="card" style="width: 18rem">
             <img
@@ -147,7 +179,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col d-flex justify-content-center">
           <!-- Right Content Box -->
           <div class="card" style="width: 18rem">
             <img
@@ -161,7 +193,7 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="data_exploration.html" class="btn btn-primary">Visit</a>
+              <a href="/data" class="btn btn-primary">Visit</a>
             </div>
           </div>
         </div>
