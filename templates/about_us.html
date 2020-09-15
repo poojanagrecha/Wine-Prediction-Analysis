@@ -19,7 +19,8 @@
     <!-- Bootswatch CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous">
     <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
 </head>
 
@@ -35,8 +36,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/tableau">Tableau Exploration <span class="sr-only">(current)</span></a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tableau Exploration</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/tableau1">Tableau Dashboard 1</a>
+                            <a class="dropdown-item" href="/tableau2">Tableau Dashboard 2</a>
+                            <a class="dropdown-item" href="/tableau3">Tableau Dashboard 3</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/data">Data Exploration <span class="sr-only">(current)</span></a>
@@ -57,11 +63,65 @@
             <div class="col-md-12 jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://www1.nyc.gov/assets/internationalbusiness/images/content/pages/interiorpage-qualityoflife.jpg);   background-size: cover;"
                 id="header">
                 <div class="container">
-                    <h1 class="display-4 text-center"><b>Quality of Life Data Exploration</b></h1>
+                    <h1 class="display-4 text-center"><b>About Us</b></h1>
                     <p class="lead"></p>
                 </div>
             </div>
-            <!-- <div>Insert Data Here</div> -->
+
+            <h2 style="text-align:center">The Wine Team</h2>
+            <style>
+                h2 {
+                    font-family: "Sofia";
+                    font-size: 30px;
+                }
+            </style>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="../Pics/yasmine.png" alt="Yasmine" style="width:100%">
+                        <div class="container">
+                            <h2>Yasmine</h2>
+                            <p class="title">NLP Specialist</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="../Pics/20170627_195840(1)_2.jpg" alt="Daniel" style="width:100%">
+                        <div class="container">
+                            <h2>Daniel</h2>
+                            <p class="title">Machine Learning Specialist</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="../Pics/TKolencherry.jpg" alt="Terisha" style="width: 100%">
+                        <div class="container">
+                            <h2>Terisha</h2>
+                            <p class="title">Machine Learning Specialist</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="../Pics/pooja.png" alt="Pooja" style="width:100%">
+                        <div class="container">
+                            <h2>Pooja</h2>
+                            <p class="title">Tableau Specialist</p>
+                            <p>Pooja attended The University of Texas at Dallas and is now tackling the SMU Data Science program. She has been coding for 6 months and favorite programming language is Python. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

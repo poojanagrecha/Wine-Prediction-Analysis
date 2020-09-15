@@ -14,9 +14,17 @@ def index():
 def ML_page():
     return render_template('machine_learning.html')
 
-@app.route("/tableau")
-def leaflet_page():
+@app.route("/tableau1")
+def tableau1_page():
     return render_template("tableau_exploration.html")
+
+@app.route("/tableau2")
+def tableau2_page():
+    return render_template("tableau2.html")
+
+@app.route("/tableau3")
+def tableau3_page():
+    return render_template("tab3.html")
 
 @app.route("/data")
 def data_page():
