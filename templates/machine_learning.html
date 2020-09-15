@@ -10,12 +10,9 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- Hello JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- D3 Tip for the Tooltips -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-    <!-- static CSS -->
+    <!-- Our Machine Learning JS -->
     <script src="../static/js/ml_predictions.js"></script>
-
-
+    <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Bootswatch CSS -->
@@ -87,10 +84,27 @@
                 <select id="id6" class="custom-select"></select>
             </div>
             <div class="list-group-item">
-                <button id="submit" class="btn btn-primary btn-block btn-large">Submit</button>
+                <button id="submit" data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-block btn-large">Submit</button>
             </div>
         </div>
     </div>
+    </div>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div>
+                    <h4 class="modal-title">Prediction</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="predict"></p>
+                </div>
+                <div style="padding-bottom: 10px;">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

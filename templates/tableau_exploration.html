@@ -3,15 +3,22 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tableau</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+    <title>Quality of Life</title>
+    <!-- Function for radial charts -->
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3-scale-radial.js"></script>
     <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- Hello JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Hello Plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- D3 Tip for the Tooltips -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <!-- Tableau script -->
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script src="/static/js/tableau_exploration.js"></script>
 
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -20,10 +27,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous">
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
-
 </head>
 
-<body>
+<body onload="initViz();">
     <div class="container-fluid navbar-dark bg-dark">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Wine Not</a>
@@ -56,18 +62,8 @@
             </div>
         </nav>
     </div>
-
-    <div class="container-fluid jumbotron">
-        <div class="container-fluid">
-            <div class="col-md-12 jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://www1.nyc.gov/assets/internationalbusiness/images/content/pages/interiorpage-qualityoflife.jpg);   background-size: cover;"
-                id="header">
-                <div class="container">
-                    <h1 class="display-4 text-center"><b>Quality of Life Data Exploration</b></h1>
-                    <p class="lead"></p>
-                </div>
-            </div>
-            <!-- <div>Embed Tableau Here</div> -->
-        </div>
+    <div id="vizContainer" style="width:1400px; height:800px;"></div>
+    </div>
     </div>
 </body>
 

@@ -142,24 +142,39 @@ function getPrediction() {
 
 
             if (data == 0) {
-                return alert("This wine belongs in the 'Iconic' catagory and is worth: Over $50");
+                $('.modal-body p').empty();
+                let data = "<p><b>This wine belongs in the 'Iconic' catagory and is worth: Over $50</b></p>";
+                return $(".predict").append(data);
             } else if (data == 1) {
-                return alert("This wine belongs in the 'Popular' catagory and is worth: $10-15");
+                $('.modal-body p').empty();
+                let data = "<p><b>This wine belongs in the 'Popular' catagory and is worth: $10-15</b></p>"
+                return $(".predict").append(data);
             } else if (data == 2) {
-                return alert("This wine belongs in the 'Premium' catagory and is worth: $15-20");
+                $('.modal-body p').empty();
+                let data = "<p><b>This wine belongs in the 'Premium' catagory and is worth: $15-20</b></p>";
+                return $(".predict").append(data);
             } else if (data == 3) {
-                return alert("This wine belongs in the 'Super Premium' catagory and is worth: $20-30");
+                $('.modal-body p').empty();
+                let data = "<p><b>This wine belongs in the 'Super Premium' catagory and is worth: $20-30</b></p>";
+                return $(".predict").append(data);
             } else if (data == 4) {
-                return alert("This wine belongs in the 'Ultra Premium' catagory and is worth: $30-50");
+                $('.modal-body p').empty();
+                let data = "<p><b>This wine belongs in the 'Ultra Premium' catagory and is worth: $30-50</b></p>";
+                return $(".predict").append(data);
             } else {
-                return alert("This wine belongs in the 'Value' catagory and is worth: Under $10");
+                $('.modal-body p').empty();
+                let data = "<p><b>This wine belongs in the 'Value' catagory and is worth: Under $10</b></p>";
+                return $(".predict").append(data);
             };
 
         }
     });
 
-}
-
-function inputLookup(data) {
-
 };
+
+// document.getElementById("submit").addEventListener('click', function() {
+//     document.querySelector('.bg-modal').style.display = 'flex';
+// });
+// document.querySelector('.close').addEventListener('click', function() {
+//     document.querySelector('.bg-modal').style.display = 'none';
+// });
