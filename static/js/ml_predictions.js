@@ -147,7 +147,7 @@ function getPrediction() {
                 return $(".predict").append(data);
             } else if (data == 1) {
                 $('.modal-body p').empty();
-                let data = "<p><b>This wine belongs in the 'Popular' catagory and is worth: $10-15</b></p>"
+                let data = "<p><b>This wine belongs in the 'Popular' catagory and is worth: $10-15</b></p>";
                 return $(".predict").append(data);
             } else if (data == 2) {
                 $('.modal-body p').empty();

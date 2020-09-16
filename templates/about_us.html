@@ -13,15 +13,13 @@
     <!-- D3 Tip for the Tooltips -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
 
-
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Bootswatch CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous" />
     <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-
+    <link rel="stylesheet" type="text/css" href="../static/css/ML_style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
 </head>
 
 <body>
@@ -34,96 +32,146 @@
             <div class="collapse navbar-collapse" id="navbarColor02">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tableau Exploration</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="/tableau1">Tableau Dashboard 1</a>
-                            <a class="dropdown-item" href="/tableau2">Tableau Dashboard 2</a>
-                            <a class="dropdown-item" href="/tableau3">Tableau Dashboard 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/data">Data Exploration <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ml_predictions">Machine Learning <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/about_us">About Us <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <div class="container-fluid jumbotron">
-        <div class="container-fluid">
-            <div class="col-md-12 jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://www1.nyc.gov/assets/internationalbusiness/images/content/pages/interiorpage-qualityoflife.jpg);   background-size: cover;"
-                id="header">
-                <div class="container">
-                    <h1 class="display-4 text-center"><b>About Us</b></h1>
-                    <p class="lead"></p>
-                </div>
-            </div>
-
-            <h2 style="text-align:center">The Wine Team</h2>
-            <style>
-                h2 {
-                    font-family: "Sofia";
-                    font-size: 30px;
-                }
-            </style>
-            <br>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="../static/images/yasmine.png" alt="Yasmine" style="width:100%">
-                        <div class="container">
-                            <h2>Yasmine</h2>
-                            <p class="title">NLP Specialist</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="../static/images/20170627_195840(1)_2.jpg" alt="Daniel" style="width:100%">
-                        <div class="container">
-                            <h2>Daniel</h2>
-                            <p class="title">Machine Learning Specialist</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="../static/images/TKolencherry.jpg" alt="Terisha" style="width: 100%">
-                        <div class="container">
-                            <h2>Terisha</h2>
-                            <p class="title">Machine Learning Specialist</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="../static/images/pooja.png" alt="Pooja" style="width:100%">
-                        <div class="container">
-                            <h2>Pooja</h2>
-                            <p class="title">Tableau Specialist</p>
-                            <p>Pooja attended The University of Texas at Dallas and is now tackling the SMU Data Science program. She has been coding for 6 months and favorite programming language is Python. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Tableau Exploration</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/tableau1"
+                  >Tableau Dashboard 1</a
+                >
+                <a class="dropdown-item" href="/tableau2"
+                  >Tableau Dashboard 2</a
+                >
+                <a class="dropdown-item" href="/tableau3"
+                  >Tableau Dashboard 3</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/data"
+                >Data Exploration <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ml_predictions"
+                >Machine Learning <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/about_us"
+                >About Us <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
         </div>
+      </nav>
     </div>
-</body>
 
+    <h1 class="display-4 text-center" style="color: #fff;"><b>About Us</b></h1>
+    <p class="lead"></p>
+    <h2 style="text-align: center">The Wine Team</h2>
+        <style>
+          h2 {
+            font-family: "Sofia";
+            font-size: 30px;
+            color: white;
+          }
+        </style>
+    <br />
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="../static/images/yasmine.png"
+                alt="Yasmine"
+                style="width: 100%"
+              />
+              <div class="container">
+                <br>
+                <h2>Yasmine</h2>
+                <p class="title">NLP Specialist</p>
+                <p>
+                  Yasmine attend the University of Texas at Dallas for
+                  software engineering. Yasmine is pursuing a Data Science
+                  Certification at the SMU Data Science Bootcamp. Yasmine's favorite part of this bootcamp is NLP &#128521.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="../static/images/20170627_195840(1)_2.jpg"
+                alt="Daniel"
+                style="width: 100%"
+              />
+              <div class="container">
+                <br>
+                <h2>Daniel</h2>
+                <p class="title">Machine Learning Specialist</p>
+                <p>
+                  Daniel attended the University of North Texas for mechanical
+                  engineering, after many career changes, Daniel is now studying
+                  data science through the SMU Data Science Bootcamp. Daniel is
+                  looking to pursue a career in data science soon after
+                  completing the bootcamp. Daniel's favorite portion of the
+                  bootcamp was learning python, front-end development and
+                  collaborating with peers on projects.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="../static/images/TKolencherry.jpg"
+                alt="Terisha"
+                style="width: 100%"
+              />
+              <div class="container">
+                <br>
+                <h2>Terisha</h2>
+                <p class="title">Machine Learning Specialist</p>
+                <p>
+                  Terisha graduated from Southern Methodist University and is
+                  now tackling the SMU Data Science Bootcamp. Her favorite part
+                  of the Bootcamp was working with her team on projects.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="../static/images/pooja.png"
+                alt="Pooja"
+                style="width: 100%"
+              />
+              <div class="container">
+                <br>
+                <h2>Pooja</h2>
+                <p class="title">Tableau Specialist</p>
+                <p>
+                  Pooja attended The University of Texas at Dallas and is now
+                  tackling the SMU Data Science program. She has been coding for
+                  6 months and favorite programming language is Python.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </body>
 </html>

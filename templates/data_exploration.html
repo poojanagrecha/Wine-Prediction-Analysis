@@ -19,12 +19,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Datatable -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" />
     <!-- Bootswatch CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous" />
     <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/ML_style.css">
-
+    <link rel="stylesheet" type="text/css" href="static/css/ML_style.css" />
 </head>
 
 <body>
@@ -37,80 +36,106 @@
             <div class="collapse navbar-collapse" id="navbarColor02">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tableau Exploration</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="/tableau1">Tableau Dashboard 1</a>
-                            <a class="dropdown-item" href="/tableau2">Tableau Dashboard 2</a>
-                            <a class="dropdown-item" href="/tableau3">Tableau Dashboard 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/data">Data Exploration <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ml_predictions">Machine Learning <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about_us">About Us <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <div class="container-fluid body">
-        <div class="container-fluid body">
-            <div class="col-md-12 jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://www1.nyc.gov/assets/internationalbusiness/images/content/pages/interiorpage-qualityoflife.jpg);   background-size: cover;"
-                id="header">
-                <div class="container">
-                    <h1 class="display-4 text-center"><b>Wine Enthusiast Data Exploration</b></h1>
-                    <p class="lead"></p>
-                </div>
-            </div>
-            <div class="card-body card list-group-item">
-                <div class="card-header">
-                    <h2 class="subtitle">Wine Data Sample (1000 rows)</h2>
-                    <p>The dataset was scraped from the Wine Enthusiast website on June 2017. The data contains reviews for a variety of wines worldwide. The wines were graded on a scale of 80-100pts by wine enthusiast reviewers. The reviewers did not know
-                        the price of each wine tested during the review. Apart from the points and price per wine, the data includes the reviewer's description of the wine tasted, wine variety, the country, province, region and even winery where the wine
-                        was produced. During our exploration, we decided to add a classifier column describing the color of wine and classified wines by price catagory.
-                    </p>
-                    <hr color="white">
-                </div>
-                <div>
-                    <a href="/downloadCSV" download="Clean_Wine_Data.csv"><button type="button" class="btn btn-primary">Click to download full csv file</button></a>
-                </div>
-                <div class="container-fluid" style="padding-top: 15px;">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <table class="table-hover table-striped" id="dataframe">
-                                <thead>
-                                    <tr>
-                                        <th>Country</th>
-                                        <th>Description</th>
-                                        <th>Designation</th>
-                                        <th>Points 80-100</th>
-                                        <th>Price $</th>
-                                        <th>Province</th>
-                                        <th>Region 1</th>
-                                        <th>Region 2</th>
-                                        <th>Variety</th>
-                                        <th>Winery</th>
-                                        <th>Red?(T/F)</th>
-                                        <th>Price Catagory</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Tableau Exploration</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/tableau1"
+                  >Tableau Dashboard 1</a
+                >
+                <a class="dropdown-item" href="/tableau2"
+                  >Tableau Dashboard 2</a
+                >
+                <a class="dropdown-item" href="/tableau3"
+                  >Tableau Dashboard 3</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/data"
+                >Data Exploration <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ml_predictions"
+                >Machine Learning <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about_us"
+                >About Us <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
         </div>
+      </nav>
     </div>
-</body>
-
+    <br />
+    <div class="container-fluid body">
+      <div class="container-fluid body">
+        <h1 style="color: #fff">Wine Enthusiast Data Exploration</h1>
+        <br />
+        <div class="card-body card list-group-item">
+          <div class="card-header">
+            <h2 class="subtitle">Wine Data Sample (1000 rows)</h2>
+            <p>
+              The dataset was scraped from the Wine Enthusiast website on June
+              2017. The data contains reviews for a variety of wines worldwide.
+              The wines were graded on a scale of 80-100pts by wine enthusiast
+              reviewers. The reviewers did not know the price of each wine
+              tested during the review. Apart from the points and price per
+              wine, the data includes the reviewer's description of the wine
+              tasted, wine variety, the country, province, region and even
+              winery where the wine was produced. During our exploration, we
+              decided to add a classifier column describing the color of wine
+              and classified wines by price catagory.
+            </p>
+            <hr color="white" />
+          </div>
+          <div>
+            <a href="/downloadCSV" download="Clean_Wine_Data.csv"
+              ><button type="button" class="btn btn-primary">
+                Click to download full csv file
+              </button></a
+            >
+          </div>
+          <div class="container-fluid" style="padding-top: 15px">
+            <div class="row">
+              <div class="col-md-12">
+                <table class="table-hover table-striped" id="dataframe">
+                  <thead>
+                    <tr>
+                      <th>Country</th>
+                      <th>Description</th>
+                      <th>Designation</th>
+                      <th>Points 80-100</th>
+                      <th>Price $</th>
+                      <th>Province</th>
+                      <th>Region 1</th>
+                      <th>Region 2</th>
+                      <th>Variety</th>
+                      <th>Winery</th>
+                      <th>Red?(T/F)</th>
+                      <th>Price Catagory</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
