@@ -25,7 +25,7 @@
 <body>
     <div class="container-fluid navbar-dark bg-dark">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Wine Not</a>
+            <a class="navbar-brand" href="#">Wine Price is Right</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,10 +37,14 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tableau Exploration</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="/tableau1">Tableau Dashboard 1</a>
-                            <a class="dropdown-item" href="/tableau2">Tableau Dashboard 2</a>
-                            <a class="dropdown-item" href="/tableau3">Tableau Dashboard 3</a>
-                        </div>
+                            <a class="dropdown-item" href="/tableau1">Quality of Wine</a
+                            >
+                            <a class="dropdown-item" href="/tableau2"
+                              >Wine Price Scale</a
+                            >
+                            <a class="dropdown-item" href="/tableau3"
+                              >Top Tasted Wines</a
+                            >
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/data">Data Exploration <span class="sr-only">(current)</span></a>
@@ -52,42 +56,42 @@
                         <a class="nav-link" href="/about_us">About Us <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-            </div>
+                </div>
         </nav>
-    </div><br>
-    <h1 style="color: #fff;">Machine Learning Predictions</h1><br>
-    <h3 style="color: #fff;">Make a selection from each catagory to predict your wine's price range.</h3>
-    <div class="login" style="position: relative;">
-        <div id="dropdowns card">
-            <div class="list-group-item" id="id-1">
-                <label for="id1">Wine Color:</label><br>
-                <select id="id1" class="custom-select"></select>
-            </div>
-            <div class="list-group-item" id="id-2">
-                <label for="id2">Country:</label><br>
-                <select id="id2" class="custom-select"></select>
-            </div>
-            <div class="list-group-item" id="id-3">
-                <label for="id3">Wine Variety:</label><br>
-                <select id="id3" class="custom-select"></select>
-            </div>
-            <div class="list-group-item" id="id-4">
-                <label for="id4">Winery:</label><br>
-                <select id="id4" class="custom-select"></select>
-            </div>
-            <div class="list-group-item" id="id-5">
-                <label for="id5">Designation:</label><br>
-                <select id="id5" class="custom-select"></select>
-            </div>
-            <div class="list-group-item" id="id-6">
-                <label for="id6">Province:</label><br>
-                <select id="id6" class="custom-select"></select>
-            </div>
-            <div class="list-group-item">
-                <button id="submit" data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-block btn-large">Submit</button>
+        </div><br>
+        <h1 style="color: #fff;">Machine Learning Predictions</h1><br>
+        <h3 style="color: #fff;">Make a selection from each catagory to predict your wine's price range.</h3>
+        <div class="login" style="position: relative;">
+            <div id="dropdowns card">
+                <div class="list-group-item" id="id-1">
+                    <label for="id1">Wine Color:</label><br>
+                    <select id="id1" class="custom-select"></select>
+                </div>
+                <div class="list-group-item" id="id-3">
+                    <label for="id3">Wine Variety:</label><br>
+                    <select id="id3" class="custom-select"></select>
+                </div>
+                <div class="list-group-item" id="id-5">
+                    <label for="id5">Designation:</label><br>
+                    <select id="id5" class="custom-select"></select>
+                </div>
+                <div class="list-group-item" id="id-2">
+                    <label for="id2">Country:</label><br>
+                    <select id="id2" class="custom-select"></select>
+                </div>
+                <div class="list-group-item" id="id-6">
+                    <label for="id6">Province:</label><br>
+                    <select id="id6" class="custom-select"></select>
+                </div>
+                <div class="list-group-item" id="id-4">
+                    <label for="id4">Winery:</label><br>
+                    <select id="id4" class="custom-select"></select>
+                </div>
+                <div class="list-group-item">
+                    <button id="submit" data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-block btn-large">Submit</button>
+                </div>
             </div>
         </div>
-    </div>
     </div>
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
