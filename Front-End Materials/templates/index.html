@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Wine Not</title>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- Hello JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- D3 Tip for the Tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootswatch CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css"
+      integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB"
+      crossorigin="anonymous"
+    />
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/ML_style.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Wine Not!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Tableau Exploration</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/tableau1"
+                  >Tableau Dashboard 1</a
+                >
+                <a class="dropdown-item" href="/tableau2"
+                  >Tableau Dashboard 2</a
+                >
+                <a class="dropdown-item" href="/tableau3"
+                  >Tableau Dashboard 3</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/data"
+                >Data Exploration <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ml_predictions"
+                >Machine Learning <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about_us"
+                >About Us <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <br />
+    <h1 style="color: #fff">The Price Is Right</h1>
+    <br />
+    <h3 style="color: #fff">
+      Make a selection from each catagory to predict your wine's price range.
+    </h3>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <!-- Left Content Box -->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://i1.wp.com/www.globaltrademag.com/wp-content/uploads/2019/08/shutterstock_1092234560.jpg?fit=757%2C393&ssl=1"
+              alt="Machine_Learning"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="/ml_predictions" class="btn btn-primary">Visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <!-- Right Content Box -->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://i.pcmag.com/imagery/reviews/03ET1vJXgWnmfrLZ7g542br-5.1569475368.fit_scale.size_1028x578.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tableau Exploration</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle btn-primary"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Visit
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/tableau1"
+                    >Tableau Dashboard 1</a
+                  >
+                  <a class="dropdown-item" href="/tableau2"
+                    >Tableau Dashboard 2</a
+                  >
+                  <a class="dropdown-item" href="/tableau3"
+                    >Tableau Dashboard 3</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <!-- Left Content Box -->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://github.githubassets.com/images/modules/open_graph/github-mark.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Our Github Page</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                href="https://github.com/06S197GT/SMU_Capstone_Team_Wine_2.0"
+                class="btn btn-primary"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <!-- Right Content Box -->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://user-images.githubusercontent.com/32869222/64982198-f4c73980-d893-11e9-9d59-f6d6453242d4.PNG"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Data Exploration</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="/data" class="btn btn-primary">Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
