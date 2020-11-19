@@ -1,7 +1,7 @@
 # Project: The Wine Price is Right
 ![image](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/Wine%20Prediction%20Analysis.jpg)
 
-<b>Deployed Link:</b> 
+<b>Deployed Link:</b> https://smu-capstone-group-wine.herokuapp.com/
 
 ## Purpose
 
