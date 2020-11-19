@@ -21,7 +21,7 @@ Using Tableau, we filtered on state, province, wine variety, and wine quality. C
 
 ![tableau image](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/Tableau2.png)
 
-## Sentinment Analysis 
+## Sentiment Analysis 
 
 Sentiment analysis is the machine learning technique we utilized on the description column to detect the amount of polarity within the dataset. We calculated some statistics regarding the annotations, such as the number of “excellent” and “good” wines as well as the total number of annotations. We calculated the sentiment of each review using a binary classification model, which takes a sentence as an input and returns 1 or 0, corresponding to “excellent” or “good”. After classifying the reviews into two categories, we created DataFrames for each one and built respective wordclouds.
 
