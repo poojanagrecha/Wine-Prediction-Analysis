@@ -44,7 +44,8 @@ Initially, our group had run a linear regression model for red wines and white w
 ![image of residuals](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/residuals.png)
 
 <b> Final Model Selection and Prediction Ability </b>
-We settled on the Random Forest Regressor because it was more consistent across our target classes, while still maintaining moderate accuracy and precision scores. When we went to test predictions on our model, it seemed that we had resolved the issue of our model being unable to predict high priced wines. However, we noticed that the opposite trend was occurring - our model seemed to have issues predicting extremely cheap wines, this difficulty is likely due to the lower number of wines in the category. 
+
+We settled on the Random Forest Regressor because it was more consistent across our target classes, while still maintaining moderate accuracy and precision scores. 
 
 ![random forest](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/randomforest.png)
 
