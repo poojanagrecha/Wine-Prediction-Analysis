@@ -17,17 +17,23 @@ Using Tableau, we filtered on state, province, wine variety, and wine quality. C
 
 [Tableau Visualizations](https://public.tableau.com/profile/pooja.nagrecha#!/vizhome/Wine_15999265262760/Sheet8)
 
-![tableau imamge]
+![tableau image](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/Tableau.png)
+
+![tableau image](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/Tableau2.png)
 
 ## Sentinment Analysis 
 
 Sentiment analysis is the machine learning technique we utilized on the description column to detect the amount of polarity within the dataset. We calculated some statistics regarding the annotations, such as the number of “excellent” and “good” wines as well as the total number of annotations. We calculated the sentiment of each review using a binary classification model, which takes a sentence as an input and returns 1 or 0, corresponding to “excellent” or “good”. After classifying the reviews into two categories, we created DataFrames for each one and built respective wordclouds.
 
-![sentiment images]
+![sentiment images](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/SA.png)
+- Word cloud generated corresponding to excellent
+
+![sentiment image](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/SA2.png)
+- Word cloud generated corresponding to good
 
 Looking at the distribution of reviews with sentiment across the dataset, we can see that “good” sentiment is double the “excellent” sentiment
 
-![sentiment bar graph]
+![sentiment bar graph](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/SA3.png)
 
 ## Machine Learning
 
@@ -35,17 +41,17 @@ Looking at the distribution of reviews with sentiment across the dataset, we can
 
 Initially, our group had run a linear regression model for red wines and white wines between points and prices to see what the correlation was. Looking at the residual plots (Figure 4.1) it’s clear that the basic model was bad at predicting more expensive wines, so our group decided to bin the prices and run a classification model.
 
-![image of residuals]
+![image of residuals](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/residuals.png)
 
 <b> Final Model Selection and Prediction Ability </b>
 We settled on the Random Forest Regressor because it was more consistent across our target classes, while still maintaining moderate accuracy and precision scores. When we went to test predictions on our model, it seemed that we had resolved the issue of our model being unable to predict high priced wines. However, we noticed that the opposite trend was occurring - our model seemed to have issues predicting extremely cheap wines, this difficulty is likely due to the lower number of wines in the category. 
 
-![random forest]
+![random forest](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/randomforest.png)
 
 ## Application Creation 
 To begin our final application, we had to first build a skeleton. In order to run a machine learning model on the back-end, we had to integrate the Flask library in Python. For our web page to function correctly, every interactive feature on the HTML needed a route within the Flask app. Connecting the application to Heroku was straightforward and involved connecting the Heroku deployment to our GitHub repository.
 
-![flask image]
+![flask image](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/flask.png)
 
 
 
