@@ -13,7 +13,7 @@ The dataset came from the Wine Enthusiast magazine, which reviews a plethora of 
 
 ## Exploratory Data Analysis 
 
-Using Tableau, we filtered on state, province, wine variety, and wine quality. Color coding on a wine-themed gradient was emphasized to organize areas of our dataset that were meaningful. We can conclude through our visualizations that the top tasted wine varieties were Chardonnay and Pinot Noir. The best quality wine variety according to the points column in the dataset is Nebbiolo. Washington was the state with the highest quality of wine in the US while Nevada carried the spot for most expensive wine in the US.
+Using Tableau, we filtered on state, province, wine variety, and wine quality. Color coding on a wine-themed gradient was emphasized to organize areas of our dataset that were meaningful. 
 
 [Tableau Visualizations](https://public.tableau.com/profile/pooja.nagrecha#!/vizhome/Wine_15999265262760/Sheet8)
 
@@ -23,7 +23,7 @@ Using Tableau, we filtered on state, province, wine variety, and wine quality. C
 
 ## Sentiment Analysis 
 
-Sentiment analysis is the machine learning technique we utilized on the description column to detect the amount of polarity within the dataset. We calculated some statistics regarding the annotations, such as the number of “excellent” and “good” wines as well as the total number of annotations. We calculated the sentiment of each review using a binary classification model, which takes a sentence as an input and returns 1 or 0, corresponding to “excellent” or “good”. After classifying the reviews into two categories, we created DataFrames for each one and built respective wordclouds.
+Sentiment analysis is the machine learning technique we utilized on the description column to detect the amount of polarity within the dataset. We calculated some statistics regarding the annotations, such as the number of “excellent” and “good” wines as well as the total number of annotations. 
 
 ![sentiment images](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/SA.png)
 - Word cloud generated corresponding to excellent
@@ -39,7 +39,7 @@ Looking at the distribution of reviews with sentiment across the dataset, we can
 
 <b>Data Preparation </b>
 
-Initially, our group had run a linear regression model for red wines and white wines between points and prices to see what the correlation was. Looking at the residual plots (Figure 4.1) it’s clear that the basic model was bad at predicting more expensive wines, so our group decided to bin the prices and run a classification model.
+Initially, our group had run a linear regression model for red wines and white wines between points and prices to see what the correlation was. Looking at the residual plots it’s clear that the basic model was bad at predicting more expensive wines, so our group decided to bin the prices and run a classification model.
 
 ![image of residuals](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/residuals.png)
 
@@ -49,7 +49,7 @@ We settled on the Random Forest Regressor because it was more consistent across 
 ![random forest](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/randomforest.png)
 
 ## Application Creation 
-To begin our final application, we had to first build a skeleton. In order to run a machine learning model on the back-end, we had to integrate the Flask library in Python. For our web page to function correctly, every interactive feature on the HTML needed a route within the Flask app. Connecting the application to Heroku was straightforward and involved connecting the Heroku deployment to our GitHub repository.
+To begin our final application, we had to first build a skeleton. In order to run a machine learning model on the back-end, we had to integrate the Flask library in Python. For our web page to function correctly, every interactive feature on the HTML needed a route within the Flask app. 
 
 ![flask image](https://github.com/poojanagrecha/Wine-Prediction-Analysis/blob/master/Images/flask.png)
 
